@@ -20,31 +20,31 @@
 
 ### 登录页面
 
-![](https://icyse.github.io/carte/image/screenshot0.jpg) 
+![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot0.png) 
 
 ### 列表、图片轮播组件
 
-![](https://icyse.github.io/carte/image/screenshot2.jpg)
+![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot2.png)
 
 ### 内容页面、comment组件
 
-![](https://icyse.github.io/carte/image/screenshot3.jpg)
+![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot3.png)
 
 ### 幻灯片
 
-![](https://icyse.github.io/carte/image/screenshot4.jpg)
+![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot4.png)
 
 ### 表单控件、评分组件、下拉刷新
 
-![](https://icyse.github.io/carte/image/screenshot5.jpg)
+![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot5.png)
 
 ### feed组件
 
-![](https://icyse.github.io/carte/image/screenshot6.jpg)
+![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot6.png)
 
 ### 弹出框、浮动框
 
-![](https://icyse.github.io/carte/image/screenshot7.jpg)
+![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot7.png)
 
 ## 运行环境测试
 
