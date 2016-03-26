@@ -65,9 +65,3 @@
 ## 声明
 
 借鉴、使用到的类库插件有ratchet、fontello等。
-
-## License
-
-Copyright (c) 2014 CJ.
-
-The MIT License (MIT). Please see [Opensource MIT License](http://www.opensource.org/licenses/MIT) for more information.
