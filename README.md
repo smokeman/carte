@@ -1,7 +1,9 @@
 # carte
 精美小巧的移动Apps模板。
 
-## [DEMO](https://icyse.github.io/carte/)请务必使用手机浏览，或者在PC上使用Chrome的手机浏览器模拟功能。
+## [DEMO](https://icyse.github.io/carte/)
+
+请务必使用手机浏览，或者在PC上使用Chrome的手机浏览器模拟功能。
 
 ## 特点
 
