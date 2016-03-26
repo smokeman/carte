@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Carte 登录</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <meta name="keywords" content="ratchet,mobile apps,template" />
+        <meta name="author" content="cai" />
+        <meta name="description" content="" />
+        
+        <link rel="shortcut icon" type="image/x-icon" href="logo.png" media="screen">
+
+        <link rel="stylesheet" href="fontello/css/fontello.css">
+        <link rel="stylesheet" href="css/carte-0.1.min.css">
+    </head>
+    <body>
+        <header class="bar bar-nav">
+            <a href="email.html" class="btn btn-link btn-nav pull-left" data-transition="slide-out">
+                <span class="icon icon-refresh"></span>
+                忘记密码
+            </a>
+            <a href="register.html" class="btn btn-link btn-nav pull-right" data-transition="slide-in">
+                注册<span class="icon icon-right-nav"></span>
+            </a>
+            <h1 class="title">登录</h1>
+        </header>
+        <nav class="bar bar-tab">
+            <a class="tab-item active" href="index.html" data-transition="slide-out">
+                <span class="icon icon-pages"></span>
+                <span class="tab-label">主题</span>
+            </a>
+            
+            <a class="tab-item" href="service_create.html" data-transition="slide-in">
+                <span class="icon icon-compose"></span>
+                <span class="tab-label">发布</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-star"></span>
+                <span class="tab-label">排行</span>
+            </a>
+            <a class="tab-item" href="notification.html" data-transition="slide-in">
+                <span class="icon icon-person"></span>
+                <span class="badge">9</span>
+                <span class="tab-label">我的</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-more"></span>
+                <span class="tab-label">更多</span>
+            </a>
+        </nav>
+        <div class="bar bar-standard bar-header-secondary">
+            <div class="segmented-control">
+                <a class="control-item active" href="#login-form">
+                    <span class="tab-label">现在登录</span>
+                </a>
+                <a class="control-item" href="#login-type">
+                    <span class="tab-label">其他方式</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-padded">
+                <div class="control-content active" id="login-form">
+                    <form method="POST" action="#">
+                        <input type="email" name="email" value="" class="" placeholder="邮箱"/>
+                        <div style="position:relative;">
+                            <input type="password" name="password" class="" style="padding-right:30px;" placeholder="密码"/>
+                            <span class="micon-eye" style="position:absolute;top: 5px;right: 0;" onclick="this.classList.toggle('micon-eye');this.classList.toggle('micon-eye-off');var input = this.parentNode.children[0];input.getAttribute('type') == 'text' ? input.setAttribute('type', 'password') : input.setAttribute('type', 'text'); "></span>
+                        </div>
+                        <button type="submit" class="btn btn-positive btn-block">登录</button>
+                    </form>
+                </div>
+                
+                <div class="control-content" id="login-type">
+                    <section class="login-area">
+                        <fieldset>
+                            <legend>使用其他账号登录</legend>
+                            <div class="login-btn-list">
+                                <a href="#" class="bs-btn bs-btn-block bs-btn-social bs-btn-lg bs-btn-weibo"><i class="micon-weibo"></i>微博登录</a>
+                                <a href="#" class="bs-btn bs-btn-block bs-btn-social bs-btn-lg bs-btn-qq"><i class="micon-qq"></i>QQ登录</a>
+                                <a href="#" class="bs-btn bs-btn-block bs-btn-social bs-btn-lg bs-btn-weixin"><i class="micon-wechat"></i>微信登录</a>
+                            </div>
+                        </fieldset>
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/carte-0.1.min.js"></script>
+    </body>
+</html>
