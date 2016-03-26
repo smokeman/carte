@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Carte 表单控件</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <meta name="keywords" content="ratchet,mobile apps,template" />
+        <meta name="author" content="cai" />
+        <meta name="description" content="" />
+        
+        <link rel="shortcut icon" type="image/x-icon" href="logo.png" media="screen">
+
+        <link rel="stylesheet" href="fontello/css/fontello.css">
+        <link rel="stylesheet" href="css/carte-0.1.min.css">
+    <body>
+        <header class="bar bar-nav">
+            <a id="createService" href="javascript:;" class="btn btn-link btn-nav pull-right action_confirm" data-ignore="push">
+                <span class="icon icon-check"></span>完成
+            </a>
+            <h1 class="title">表单控件</h1>
+        </header>
+
+        <nav class="bar bar-tab">
+            <a class="tab-item active" href="index.html" data-transition="slide-out">
+                <span class="icon icon-pages"></span>
+                <span class="tab-label">主题</span>
+            </a>
+            
+            <a class="tab-item" href="service_create.html" data-transition="slide-in">
+                <span class="icon icon-compose"></span>
+                <span class="tab-label">发布</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-star"></span>
+                <span class="tab-label">排行</span>
+            </a>
+            <a class="tab-item" href="notification.html" data-transition="slide-in">
+                <span class="icon icon-person"></span>
+                <span class="badge">9</span>
+                <span class="tab-label">我的</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-more"></span>
+                <span class="tab-label">更多</span>
+            </a>
+        </nav>
+        
+        <div class="content">
+            <form id="serviceForm" method='POST' action="#">
+                <div class="table-view-divider">组合控件</div>
+                <div class="content-padded">
+                    <input style="width:60%" class="" type="number" required name="price" value="" placeholder="价格(￥)">
+                    <div id="priceToggle" class="price toggle pull-right">
+                        <div class="toggle-handle"></div>
+                    </div>
+                </div>
+
+                <div class="table-view-divider">HTML5控件</div>
+
+                <div class="content-padded relative">
+                    <div class="input-row">
+                        <label for="from_where">起点</label>
+                        <input class="typeahead" style="padding-right:25px;" name="from_where" value="" type="text" autocomplete="off" placeholder=""/> 
+                        <a href="javascript:;" class="micon-location-inv refreshAction input-icon-after-1" style="color:green"></a>
+                    </div>
+                    <div class="input-row">
+                        <label for="valid_at">日期</label>
+                        <input type="datetime-local" name="valid_at" value="" min="2016-03-22T19:00:00" required/>
+                    </div>
+                    
+                    <div class="input-row">
+                        <label for="contact">电话</label>
+                        <input type="tel" name="contact" value="" required placeholder="电话"/>
+                    </div>
+                    
+                </div>
+                <div class="content-padded">
+                    <textarea name="remark" rows="5" class="" placeholder=""></textarea>
+                </div>
+                <div class="table-view-divider">上传
+                    <a href="javascript:;" class="icon icon-plus pull-right upload" id="upload" style="margin-right:20px;"></a>
+                    <div class="fileInputContainer micon-camera pull-right" style="display:inline-block;margin-right:30px;">
+                        <input class="fileInput" type="file" name="imagefile" id="imagefile"  accept="image/gif, image/jpeg, image/png,image/*;capture=camera" value=""/>
+                    </div>
+                </div>
+                <div class="content-padded">
+                    <div class="pure-g" id="show_image">
+
+                    </div>
+                </div>
+
+                <div class="table-view-divider">评分</div>
+                <div class="content-padded">
+                    <div class="ui large rating active enable">
+                        <i class="icon active"></i>
+                        <i class="icon active"></i>
+                        <i class="icon active"></i>
+                        <i class="icon active"></i>
+                        <i class="icon"></i>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/carte-0.1.min.js"></script>
+    </body>
+</html>
