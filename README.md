@@ -16,40 +16,6 @@
 * 幻灯片组件;
 * comment、feed组件;
 
-## 手机截图
-
-### 登录页面
-
-![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot0.png) 
-
-### 列表、图片轮播组件
-
-![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot2.png)
-
-### 内容页面、comment组件
-
-![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot3.png)
-
-### 幻灯片
-
-![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot4.png)
-
-### 表单控件、评分组件、下拉刷新
-
-![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot5.png)
-
-### feed组件
-
-![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot6.png)
-
-### 弹出框、浮动框
-
-![](https://raw.githubusercontent.com/icyse/carte/master/image/screenshot7.png)
-
-## 运行环境测试
-
-* 小米2手机上真机测试，无明显bug；ipone系列Chrome模拟上测试，无明显bug。
-
 ## 安装使用
 
 需使用apache或nginx部署服务器.

@@ -1,4 +1,4 @@
-.pure-g img
+.carte-g img
 {
 	border-color: #eee;
 	border: 0.625em solid rgba( 255, 255, 255, .5 ); /* 10 */
@@ -9,8 +9,8 @@
 	-webkit-transition: -webkit-box-shadow .3s ease, border-color .3s ease;
 	transition: box-shadow .3s ease, border-color .3s ease;
 }
-.pure-g img:hover,
-.pure-g img:focus
+.carte-g img:hover,
+.carte-g img:focus
 {
 	border-color: #fff;
 
